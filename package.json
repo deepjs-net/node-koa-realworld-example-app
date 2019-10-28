@@ -1,0 +1,26 @@
+{
+  "name": "@deepjs/node-koa-realworld-example-app",
+  "version": "1.0.0",
+  "description": "koa nodeclub",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development node src/server.js",
+    "start": "cross-env NODE_ENV=production node src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deepjs-net/node-koa-realworld-example-app.git"
+  },
+  "author": "cloudyan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/deepjs-net/node-koa-realworld-example-app/issues"
+  },
+  "homepage": "https://github.com/deepjs-net/node-koa-realworld-example-app#readme",
+  "dependencies": {
+    "bookshelf": "^1.0.1",
+    "knex": "^0.20.0",
+    "koa": "^2.11.0"
+  }
+}
